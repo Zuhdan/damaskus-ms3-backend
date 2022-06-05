@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.dans.test.recruitment.common;
+package com.damaskus.ms3.relawan.common;
 
 /**
  *
  * @author eksad-samsul
  */
-import com.dans.test.recruitment.service.JwtUserDetailsService;
+import com.damaskus.ms3.relawan.service.JwtUserDetailsService;
 import java.io.IOException;
 
 import javax.servlet.FilterChain;

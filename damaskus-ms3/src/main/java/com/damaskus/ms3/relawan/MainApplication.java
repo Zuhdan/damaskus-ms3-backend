@@ -1,4 +1,4 @@
-package com.dans.test.recruitment;
+package com.damaskus.ms3.relawan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

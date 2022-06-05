@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.dans.test.recruitment.rest;
+package com.damaskus.ms3.relawan.rest;
 
 /**
  *
  * @author eksad-samsul
  */
-import com.dans.test.recruitment.common.JwtTokenUtil;
-import com.dans.test.recruitment.dto.JwtResponseDTO;
-import com.dans.test.recruitment.dto.RequestUserLoginDTO;
+import com.damaskus.ms3.relawan.common.JwtTokenUtil;
+import com.damaskus.ms3.relawan.dto.JwtResponseDTO;
+import com.damaskus.ms3.relawan.dto.RequestUserLoginDTO;
 import java.util.Objects;
 
 import org.springframework.beans.factory.annotation.Autowired;

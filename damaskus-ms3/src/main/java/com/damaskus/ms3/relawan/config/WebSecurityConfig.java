@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.dans.test.recruitment.config;
+package com.damaskus.ms3.relawan.config;
 
-import com.dans.test.recruitment.common.JwtAuthenticationEntryPoint;
-import com.dans.test.recruitment.common.JwtRequestFilter;
+import com.damaskus.ms3.relawan.common.JwtAuthenticationEntryPoint;
+import com.damaskus.ms3.relawan.common.JwtRequestFilter;
 import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

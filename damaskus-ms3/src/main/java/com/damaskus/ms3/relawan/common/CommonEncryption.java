@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.dans.test.recruitment.common;
+package com.damaskus.ms3.relawan.common;
 
 /**
  *

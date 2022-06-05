@@ -9,10 +9,21 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ *
+ * @author eksad-samsul
+ */
 @Getter
 @Setter
 @NoArgsConstructor
-public class RequestUserLoginDTO {
-    private String username;
-    private String password;
+public class UserDTO {
+    
+private String userID;
+
+private String userName;
+
+private String password;
+
+private String email;
+    
 }
