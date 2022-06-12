@@ -35,7 +35,7 @@ public class UserAssembler implements ObjectAssembler<User, UserDTO> {
         UserDTO userDTO = new UserDTO();
         userDTO.setUserID(domainObject.getUserID());
         userDTO.setUserName(domainObject.getUserName());
-        userDTO.setPassword(getPassword(domainObject.getPassword(), "enc"));
+        userDTO.setPassword(getPassword(domainObject.getPassword(), "dec"));
         userDTO.setEmail(domainObject.getEmail());
         return userDTO;
     }
@@ -46,6 +46,7 @@ public class UserAssembler implements ObjectAssembler<User, UserDTO> {
         user.setUserID(dtoObject.getUserID());
         user.setUserName(dtoObject.getUserName());
         user.setPassword(dtoObject.getPassword());
+        user.setPassword(getPassword(dtoObject.getPassword(), "enc"));
         user.setEmail(dtoObject.getEmail());
         return user;
     }

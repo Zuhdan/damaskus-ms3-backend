@@ -21,7 +21,7 @@ public class User {
     @Id
     @GeneratedValue(generator = "trx_user_gen")
     @SequenceGenerator(name="trx_user_gen", sequenceName = "trx_user_seq")
-    private String id;
+    private Integer id;
     
     private String userID;
     
@@ -34,7 +34,7 @@ public class User {
     public User() {
     }
 
-    public User(String id, String userID, String userName, String password, String email) {
+    public User(Integer id, String userID, String userName, String password, String email) {
         this.id = id;
         this.userID = userID;
         this.userName = userName;
@@ -42,11 +42,11 @@ public class User {
         this.email = email;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
